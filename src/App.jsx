@@ -1,7 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/home/SimpleHeader';
+import { HashRouter as Router } from 'react-router-dom';import Header from './components/home/SimpleHeader';
 import ImageGrid from './components/home/ImageGrid';
 import SpecialProductsSection from './components/home/SpecialProductsSection';
 import Banner from './components/home/Banner';
